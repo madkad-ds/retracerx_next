@@ -1,0 +1,44 @@
+{
+  "split": "random",
+  "candidate_mode": "plus_true",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_positives": 732,
+  "stratum_A_independent": {
+    "n": 38,
+    "MRR": 0.0282,
+    "Hits@1": 0.0,
+    "Hits@3": 0.0526,
+    "Hits@10": 0.0526
+  },
+  "stratum_B_circular": {
+    "n": 672,
+    "MRR": 0.0941,
+    "Hits@1": 0.0476,
+    "Hits@3": 0.0878,
+    "Hits@10": 0.189
+  },
+  "reachable_scored_AB": {
+    "n": 710,
+    "MRR": 0.0905,
+    "Hits@1": 0.0451,
+    "Hits@3": 0.0859,
+    "Hits@10": 0.1817
+  },
+  "full_with_ceiling_as_miss": {
+    "n": 732,
+    "MRR": 0.0878,
+    "Hits@1": 0.0437,
+    "Hits@3": 0.0833,
+    "Hits@10": 0.1762
+  },
+  "ceiling": {
+    "C_unreachable_pairs": 22,
+    "C_unreachable_drugs": 20,
+    "C_not_candidate_pairs": 0,
+    "a8_unreachable_drug_count": 20,
+    "checksum_ok": true,
+    "max_achievable_recall": 0.9699,
+    "max_recall_reachability_only": 0.9699
+  },
+  "note": "Stratum A is PRIMARY. plus_true = capability eval (record); whitelist = deployment ceiling. C_unreachable = reachability ceiling; C_not_candidate only appears in whitelist mode (reachable drug absent from the 1,565)."
+}

@@ -1,6 +1,6 @@
 {
   "step": "A3",
-  "generated_at": "2026-07-23T13:41:13.188919+00:00",
+  "generated_at": "2026-07-26T05:22:28.331419+00:00",
   "dataset_version": "2.0",
   "graph_variant": "full",
   "relationship_type_scheme": "composite LABEL__RELATION",
@@ -8,18 +8,7 @@
   "nodes_csv": {
     "path": "neo4j/import/nodes.csv",
     "sha256": "035443d250282838a7b74751a1ac89cf7425054018e5b9c3f333cfdc8980df89",
-    "rows": 190531,
-    "names_whitespace_flattened": 0,
-    "columns": [
-      "id:ID",
-      ":LABEL",
-      "label",
-      "name",
-      "id_prefix",
-      "inchi_key",
-      "umls_cui",
-      "symbol"
-    ]
+    "skipped": true
   },
   "variants": {
     "full": {
@@ -33,6 +22,23 @@
       "edges_before_filter": 21813816,
       "removed_rows": 0,
       "m_a3_1_newly_edgeless_drugs": null
+    },
+    "filtered": {
+      "edges_csv": "neo4j/import/edges_filtered.csv",
+      "edges_csv_sha256": "e6ef207191415e27f1557c72b598bc6cc884ced6df479a789b5d8616c8203daa",
+      "removed_edge_ids_csv": "data/holdout/removed_edge_ids.csv",
+      "removed_edge_ids_sha256": "bcd776a4ab15cd4988230134989696d4f9168e0da015f09489cf5ef602bf378f",
+      "expected_nodes": 190531,
+      "expected_edges": 21733867,
+      "expected_distinct_types": 50,
+      "edges_before_filter": 21813816,
+      "removed_rows": 79949,
+      "m_a3_1_newly_edgeless_drugs": {
+        "drg_nodes": 16766,
+        "with_edges_full": 16766,
+        "with_edges_filtered": 12433,
+        "newly_edgeless": 4333
+      }
     }
   }
 }

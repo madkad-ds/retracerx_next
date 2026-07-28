@@ -1,0 +1,16 @@
+{
+  "split": "disease_cold",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_train_triples": 21779959,
+  "n_train_indications": 51853,
+  "n_test_positives": 784,
+  "n_test_scoreable": 783,
+  "n_test_unscoreable": 1,
+  "a8_unreachable": 23,
+  "unscoreable_pairs": [
+    [
+      "CHEMBL151803",
+      "MONDO_0002040"
+    ]
+  ]
+}

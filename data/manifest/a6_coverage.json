@@ -1,0 +1,26 @@
+{
+  "note": "denominators explicit; these are measured boundaries, not failures",
+  "repodb_disease_reach_native_umls_cui": {
+    "reached": 717,
+    "of": 1462,
+    "pct": 49.0,
+    "ruling": "native = promoted umls_cui only; concept_ids NOT counted (E23)"
+  },
+  "repodb_drug_reach_drugbank": {
+    "reached": 1905,
+    "of": 2381,
+    "pct": 80.0
+  },
+  "broad_launched_reach_inchikey": {
+    "reached_keys": 1675,
+    "of_launched": 2718,
+    "note": "pre-LCC key reach; final whitelist is 1,700 nodes (A4, E22)"
+  },
+  "disease_space": {
+    "dis_nodes_total": 36345,
+    "oba_excluded": 10997,
+    "non_oba": 25348,
+    "with_umls_cui": 1073,
+    "caveat": "only ~6.8% of DIS nodes touch a drug (STATUS \u00a74); '36,345 diseases' overstates ~14x"
+  }
+}

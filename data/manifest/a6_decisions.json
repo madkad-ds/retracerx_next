@@ -1,0 +1,52 @@
+{
+  "stage": "A6",
+  "rule_1_drug_inchikey_collapse": {
+    "status": "RATIFIED",
+    "rule": "most edges > is_approved True > lowest id",
+    "n_groups_measured": 75,
+    "warrant": "InChIKey is not unique on the graph (E18/E14); row order must not pick the node.",
+    "artifact": "data/manifest/a6_drug_collapse.parquet",
+    "supersedes_open_rule": 1,
+    "ratification": {
+      "definition": "candidate_whitelist is derivable from a6_drug_collapse on every Launched-touching collision group",
+      "operative_groups": 19,
+      "agree": 19,
+      "a4_rerun_used": false,
+      "collision_population_full": 75,
+      "collision_population_note": "full same-key DRG population (superset); E18's 69 is LCC AND name-duplicate scoped and is not the map population",
+      "lcc_aware_rule": "lcc_member > most edges > is_approved > lowest id"
+    }
+  },
+  "rule_2_broad_salt_forms": {
+    "status": "FROZEN",
+    "rule": "match a Broad compound on ANY key in its `inchikeys` list; do not desalt to a parent structure. A4's salt fallback already explodes `inchikeys` and joins on any key.",
+    "warrant": "148 Broad compounds carry >1 distinct InChIKey (E13); 127 different-key OKG groups (E18). Connectivity-block (first-14) matching is NOT used \u2014 ChEMBL registers salt forms separately, so the block collapses distinct nodes and a 1:1 join duplicates gold pairs.",
+    "supersedes_open_rule": 2
+  },
+  "rule_3_disease_cui_collapse": {
+    "status": "FROZEN",
+    "rule": "most edges > id_prefix EFO>MONDO>other > lowest id",
+    "n_cuis_measured": 21,
+    "warrant": "21 CUIs -> 2 DIS nodes (EFO+MONDO); left as duplicates, A7's holdout double-counts (D22).",
+    "artifact": "data/manifest/a6_disease_collapse.parquet",
+    "supersedes_open_rule": 3
+  },
+  "rule_4_dis_multi_cui": {
+    "status": "CLEAN_no_rule",
+    "warrant": "0 DIS nodes carry >1 CUI (STATUS \u00a77)."
+  },
+  "rule_5_drugbank_dup": {
+    "status": "CLEAN_no_rule",
+    "warrant": "DrugBank duplication is 0 on the graph side (E18)."
+  },
+  "e23_native_key_ruling": {
+    "decision": "native disease key = the promoted `umls_cui` column ONLY",
+    "concept_ids_counts_as_native": false,
+    "frozen_disease_reach": {
+      "reached": 717,
+      "of": 1462
+    },
+    "supersedes": "a6_keys.json reach=719 (counted 2 CUIs via secondary `concept_ids` and labelled them native \u2014 see E23). umls_cui_xrefs add 0 net repoDB matches."
+  },
+  "a1_keycoverage_decision": "SUPERSEDED by a6_collapse_rules.py + a6_emit_crosswalks.py; a1_keycoverage.py is retired (STATUS \u00a77 non-blocking)."
+}

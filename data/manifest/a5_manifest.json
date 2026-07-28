@@ -1,0 +1,38 @@
+{
+  "stage": "A5",
+  "inputs": {
+    "repodb": {
+      "path": "data/sources/repodb_full.csv",
+      "sha256": "78e93082807a4a13cad7d1c5e4ca53b6a6654e0dbc1908a3893dc97b06637986"
+    },
+    "nodes": {
+      "path": "data/canon/canon_nodes.parquet",
+      "sha256": "c7c331b62c845312872cdb58e0e445b36d612869ce2c0861bedab00bbb39901c"
+    }
+  },
+  "outputs": {
+    "repodb_pairs.parquet": {
+      "sha256": "a997d4fbc46080201d435a8b34550877a1c407869e381fd06ce7441f223ed984",
+      "rows": 10602
+    },
+    "gold_positives.parquet": {
+      "sha256": "d963ceadd15d4503a4393727939587c51795b9a29148256ccca40e2aeddb32c7",
+      "rows": 8390
+    },
+    "gold_negatives.parquet": {
+      "sha256": "bfb86a58edd57c81b00f45b3234bbd0fc4043f6466df38d4a26c141fbda3ff28",
+      "rows": 2212
+    },
+    "repodb_resolved.parquet": {
+      "sha256": "f44412ff0d762c78da95491908b6b4b64daebfb5789ac4128a693286c3e2ea71",
+      "rows": 10643
+    }
+  },
+  "counts": {
+    "pairs": 10602,
+    "positives": 8390,
+    "negatives": 2212,
+    "conflicts": 614,
+    "evaluable_positive_okg_pairs": 3969
+  }
+}

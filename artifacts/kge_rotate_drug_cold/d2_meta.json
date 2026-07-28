@@ -1,0 +1,16 @@
+{
+  "split": "drug_cold",
+  "model": "RotatE",
+  "embedding_dim": 256,
+  "epochs": 300,
+  "batch_size": 8192,
+  "seed": 42,
+  "device": "cuda",
+  "wall_seconds": 14068.1,
+  "final_loss": 0.043874649451833614,
+  "smoke_metrics_all_entity_ranking": {
+    "MRR_all_entities": 0.03003465197980404,
+    "Hits@10_all_entities": 0.05370985603543743
+  },
+  "note": "smoke metrics rank against ALL entities; the project metric is D3 (whitelist+strata)"
+}

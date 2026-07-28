@@ -1,0 +1,64 @@
+{
+  "split": "drug_cold",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_train_triples": 21780173,
+  "n_train_indications": 52067,
+  "n_test_positives": 916,
+  "n_test_scoreable": 903,
+  "n_test_unscoreable": 13,
+  "a8_unreachable": 16,
+  "unscoreable_pairs": [
+    [
+      "CHEMBL1200747",
+      "EFO_1000704"
+    ],
+    [
+      "CHEMBL1201131",
+      "MONDO_0003482"
+    ],
+    [
+      "CHEMBL504535",
+      "MONDO_0005178"
+    ],
+    [
+      "CHEMBL1437764",
+      "EFO_1000764"
+    ],
+    [
+      "CHEMBL2107014",
+      "EFO_0007144"
+    ],
+    [
+      "CHEMBL1200747",
+      "EFO_0000274"
+    ],
+    [
+      "CHEMBL1725880",
+      "EFO_0000278"
+    ],
+    [
+      "CHEMBL3527416",
+      "MONDO_0000945"
+    ],
+    [
+      "CHEMBL1243",
+      "EFO_1001240"
+    ],
+    [
+      "CHEMBL1200747",
+      "EFO_1000764"
+    ],
+    [
+      "CHEMBL2107381",
+      "MONDO_0009797"
+    ],
+    [
+      "CHEMBL1200747",
+      "EFO_0005319"
+    ],
+    [
+      "CHEMBL1200747",
+      "EFO_1000697"
+    ]
+  ]
+}

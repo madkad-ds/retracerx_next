@@ -1,0 +1,100 @@
+{
+  "stage": "A7",
+  "dataset_version": "2.0",
+  "graph_variant": "full",
+  "split_seed": 20260727,
+  "headline_split": "disease_cold",
+  "date": "2026-07-26",
+  "outputs": {
+    "removed_edge_ids.csv": {
+      "sha256": "bcd776a4ab15cd4988230134989696d4f9168e0da015f09489cf5ef602bf378f",
+      "bytes": 5762595
+    },
+    "holdout_positives.csv": {
+      "sha256": "5d16897c7ffa0b5cf1c728e3a2cd6917d6a3843524ad379bf2fb16180f3e3808",
+      "bytes": 47084
+    },
+    "holdout_negatives.csv": {
+      "sha256": "7460eddeecb658a35580fa53b37794695bc48d89eb82b8f694ad4e0988bde7d2",
+      "bytes": 12426
+    },
+    "candidate_whitelist.csv": {
+      "sha256": "fff2e6143ceca4ed93d56734e8859e4a9f271006a6d5e965320c74c04238dbf5",
+      "bytes": 152886
+    },
+    "drug_xwalk.csv": {
+      "sha256": "950b34cf66fbf368c4427582871cfc7be389cc7d2e8a0dd8a03fafe0bf543be3",
+      "bytes": 853822
+    },
+    "disease_xwalk.csv": {
+      "sha256": "35b0474756b28c48694606b18c87d2a5575d69791bc96edfec9bf006ceaf114f",
+      "bytes": 1582426
+    },
+    "a7_decisions.json": {
+      "sha256": "6fbf5163e2a3e11121a163d8e9f3e4b8ee55d985adbafa76724a419e35b21bd3",
+      "bytes": 3169
+    },
+    "splits/random_holdout_positives.csv": {
+      "sha256": "875dbcc4b31a5476213b5f71c04494c143a2b06e04dc6d87e7e781e702280d24",
+      "bytes": 44054
+    },
+    "splits/random_holdout_negatives.csv": {
+      "sha256": "0fce3d8b31514937a8e50efbc304a92648ddc3ade167b1ce20531b9c6acece06",
+      "bytes": 19118
+    },
+    "splits/drug_cold_holdout_positives.csv": {
+      "sha256": "c1d67d6ee85e26a683749834285045dc934b0ecac8d2e1ad4412f83ed63e72f8",
+      "bytes": 55001
+    },
+    "splits/drug_cold_holdout_negatives.csv": {
+      "sha256": "7e34dd0585d09df16687d3394e343ae87f392d7e6c7bcb452743d8ea80580fbf",
+      "bytes": 19333
+    },
+    "splits/disease_cold_holdout_positives.csv": {
+      "sha256": "5d16897c7ffa0b5cf1c728e3a2cd6917d6a3843524ad379bf2fb16180f3e3808",
+      "bytes": 47084
+    },
+    "splits/disease_cold_holdout_negatives.csv": {
+      "sha256": "7460eddeecb658a35580fa53b37794695bc48d89eb82b8f694ad4e0988bde7d2",
+      "bytes": 12426
+    },
+    "inference_exclusions/known_indications_minus_holdout.csv": {
+      "sha256": "4b5d98ee44d458e523f7223e325ddcc67808bbad7e34f79349ea7f74e48be64e",
+      "bytes": 1433284
+    },
+    "inference_exclusions/lcc_excluded_drug_ids.csv": {
+      "sha256": "2ddbfdfb48d010a9933468ec7e43325a036d32d79087031208e3e4307fa21a10",
+      "bytes": 13360
+    },
+    "inference_exclusions/oba_disease_ids.csv": {
+      "sha256": "abc75b69a85cc30be71d82ca44a9a0b56899e2dc34e6bb2ba9a58265c8e5c8f6",
+      "bytes": 132065
+    }
+  },
+  "inherited_source_manifests": {
+    "okg_manifest.json": {
+      "sha256": "6ebd3cfebc711563a0d457a57035e71b3dde2ac29a2d27c51d8a97c2e2311dd3",
+      "bytes": 22888
+    },
+    "a2_canon_manifest.json": {
+      "sha256": "e8dbd4a67e9a0a1d9c4842033b4059dbb6129d7a6d225b957d8fd2db633505de",
+      "bytes": 1625
+    },
+    "broad_manifest.json": {
+      "sha256": "ef988e92310fb2cc85219091e9be668b23f71b1d8a75fe5997e068a8e784ee9c",
+      "bytes": 1683
+    },
+    "repodb_manifest.json": {
+      "sha256": "9a694b962f8d7e635096dc9e4cc1ca7dc95d126f2d886e59f7f2089db3b85c40",
+      "bytes": 955
+    },
+    "a3_manifest.json": {
+      "sha256": "aed738576fb6abf5ecb0e4f7369cd80679ec3f740be8654537a21b6c199f4a75",
+      "bytes": 1053
+    },
+    "a6_manifest.json": {
+      "sha256": "4093b79283f52118420d133ad967a648553ac7f945d356fc83207a226d4bea7c",
+      "bytes": 535
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "stage": "A5-circularity",
+  "drg_dis_indication_edges": 57601,
+  "evaluable_positive_okg_pairs": 3969,
+  "already_an_indication_edge": 3752,
+  "fraction_already_edge": 0.9453,
+  "sources_direct_on_matched_edges": {
+    "DRUG_CENTRAL": 3713,
+    "OPEN_TARGETS": 1519
+  },
+  "interpretation": "repoDB is DrugCentral-built and DRG-DIS carries DrugCentral IDs; a high fraction here means the gold positives and the graph's indication edges are largely the same upstream data. A7 removes these edges, so the design holds, but the coverage number is inflated and any 'novel' recovery of such a pair is not independent. STATE THIS IN THE WRITEUP."
+}

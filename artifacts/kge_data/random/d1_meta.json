@@ -1,0 +1,32 @@
+{
+  "split": "random",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_train_triples": 21784973,
+  "n_train_indications": 56867,
+  "n_test_positives": 732,
+  "n_test_scoreable": 727,
+  "n_test_unscoreable": 5,
+  "a8_unreachable": 20,
+  "unscoreable_pairs": [
+    [
+      "CHEMBL2106972",
+      "EFO_0006505"
+    ],
+    [
+      "CHEMBL2107014",
+      "EFO_0007144"
+    ],
+    [
+      "CHEMBL1608183",
+      "EFO_0005854"
+    ],
+    [
+      "CHEMBL1201131",
+      "MONDO_0003482"
+    ],
+    [
+      "CHEMBL1276010",
+      "EFO_0007512"
+    ]
+  ]
+}

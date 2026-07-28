@@ -1,0 +1,86 @@
+{
+  "stage": "A7",
+  "dataset_version": "2.0",
+  "graph_variant": "full",
+  "leakage_surface": {
+    "pairs": [
+      {
+        "label": "DRG-DIS",
+        "relation": "INDICATION"
+      },
+      {
+        "label": "DRG-DIS",
+        "relation": "CONTRAINDICATION"
+      },
+      {
+        "label": "DRG-DIS",
+        "relation": "OFF_LABEL_USE"
+      },
+      {
+        "label": "DRG-PHE",
+        "relation": "CONTRAINDICATION"
+      },
+      {
+        "label": "DRG-PHE",
+        "relation": "INDICATION"
+      },
+      {
+        "label": "DRG-PHE",
+        "relation": "OFF_LABEL_USE"
+      },
+      {
+        "label": "DRG-BPO",
+        "relation": "INDICATION"
+      }
+    ],
+    "edges_removed": 79949,
+    "drg_dis_removed": 70380,
+    "e3_note": "DRG-DIS is entirely leakage; the whole label is deleted (E3)."
+  },
+  "contraindication_policy": {
+    "DRG-DIS": "whole label removed (INDICATION+CONTRAINDICATION+OFF_LABEL_USE) - E3 governs",
+    "DRG-PHE": "removed in FULL (all three relations) - satisfies A3 gate (79,949 / 50 types)",
+    "alternative_rejected": "held-out-only removal of DRG-PHE/CONTRAINDICATION would leave the type alive; it requires relaxing a3_emit_csvs.py:load_removed() and the A3 gate in the same commit. Not taken."
+  },
+  "holdout_key": [
+    "okg_drug_id",
+    "okg_disease_id"
+  ],
+  "holdout_key_rationale": "E15 (repoDB via DrugBank), E18 (69 InChIKey collisions), 984 keyless Broad.",
+  "disease_collapse_applied": "a6_disease_collapse.parquet (umls_cui -> chosen_okg_dis_id) before keying",
+  "negatives": "Terminated + Withdrawn + Suspended (D21/E7), not Terminated alone",
+  "split": {
+    "seed": 20260727,
+    "test_fraction": 0.2,
+    "seed_offsets": {
+      "random": 0,
+      "drug_cold": 1,
+      "disease_cold": 2
+    },
+    "headline": "disease_cold",
+    "variants": [
+      "random",
+      "drug_cold",
+      "disease_cold"
+    ],
+    "temporal": "DROPPED - 2.0 is a property-only refresh; DRG-DIS/INDICATION identical across releases."
+  },
+  "inference_exclusions": {
+    "known_indications_minus_holdout": "D19 - excluding the holdout too zeroes recall",
+    "oba_disease_nodes": "E19 - NOT id STARTS WITH 'OBA', never id_prefix <> 'OBA'",
+    "lcc_excluded_drugs": "E16 - by artifact a3_lcc_excluded.parquet, never by degree"
+  },
+  "evaluable_positives": {
+    "a5_precollapse": 3969,
+    "a7_postcollapse": 3943,
+    "duplicate_pairs_merged": 26,
+    "note": "The 21 two-node CUIs double-counted pairs in repodb_resolved; the collapse merges them. a7_postcollapse (< 3,969) is the correct evaluable set, drawn from for the splits. The reduction is fully attributable to a6_disease_collapse."
+  },
+  "circularity_caveat": {
+    "evaluable_positives_a5": 3969,
+    "already_drg_dis_indication_edge": 3752,
+    "graph_independent": 217,
+    "note": "94.5% of A5's evaluable positives are the graph's own DrugCentral-sourced indication edges. A7 removes them by construction, so this is not model leakage, but recovery of the 3,752 is NOT independent validation. Lead the evaluation writeup with the ~217. (Measured pre-collapse; the -26 dedup does not change the caveat's force.)"
+  },
+  "date": "2026-07-26"
+}

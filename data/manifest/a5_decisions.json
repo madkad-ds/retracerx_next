@@ -1,0 +1,32 @@
+{
+  "stage": "A5",
+  "source": "repoDB only (drugrepurposing.info dropped \u2014 D11)",
+  "status_conflict_rule": "Approved wins",
+  "status_conflict_count": 614,
+  "positive_class": [
+    "Approved"
+  ],
+  "negative_class": [
+    "Terminated",
+    "Withdrawn",
+    "Suspended"
+  ],
+  "n_pairs": 10602,
+  "n_positives": 8390,
+  "n_negatives": 2212,
+  "resolution_keys": {
+    "drug": "DrugBank via properties.source_ids (shape DB#####) \u2014 E15",
+    "disease": "umls_cui \u2014 E9/D10"
+  },
+  "coverage": {
+    "drug_reach": 1905,
+    "drug_total": 2381,
+    "disease_reach": 717,
+    "disease_total": 1462,
+    "evaluable_positive_okg_pairs": 3969
+  },
+  "deferred_to_A6": {
+    "open_rule_3_cui_multi_node_groups": 21,
+    "note": "disease-side collapse (EFO+MONDO) is A6's; nothing collapsed in A5"
+  }
+}
