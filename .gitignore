@@ -7,3 +7,6 @@ neo4j/import/
 data/okg_cache/
 logs/
 data/canon/
+*.tsv.gz
+*.pkl
+data/kge_triples.tsv
