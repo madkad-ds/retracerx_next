@@ -1,0 +1,42 @@
+{
+  "split": "drug_cold",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_positives": 916,
+  "stratum_A_independent": {
+    "n": 4,
+    "MRR": 0.0076,
+    "Hits@1": 0.0,
+    "Hits@3": 0.0,
+    "Hits@10": 0.0
+  },
+  "stratum_B_circular": {
+    "n": 545,
+    "MRR": 0.0149,
+    "Hits@1": 0.0055,
+    "Hits@3": 0.0073,
+    "Hits@10": 0.022
+  },
+  "reachable_scored_AB": {
+    "n": 549,
+    "MRR": 0.0149,
+    "Hits@1": 0.0055,
+    "Hits@3": 0.0073,
+    "Hits@10": 0.0219
+  },
+  "full_with_ceiling_as_miss": {
+    "n": 916,
+    "MRR": 0.0089,
+    "Hits@1": 0.0033,
+    "Hits@3": 0.0044,
+    "Hits@10": 0.0131
+  },
+  "ceiling": {
+    "C_unreachable": 32,
+    "C_not_candidate": 335,
+    "a8_unreachable_count": 16,
+    "checksum_ok": false,
+    "max_achievable_recall": 0.5993,
+    "max_recall_reachability_only": 0.9651
+  },
+  "note": "Stratum A is PRIMARY. C_unreachable = reachability ceiling; C_not_candidate = held-out drug reachable but not in the 1,565 whitelist (candidate-coverage ceiling)."
+}

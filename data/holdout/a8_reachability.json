@@ -1,0 +1,17 @@
+{
+  "stage": "A8/D35",
+  "method": "gds.wcc component-contains-DIS",
+  "gds_version": "2.13.11",
+  "unreachable_drugs_graphwide": 6801,
+  "edgeless_drugs_degree0": 4333,
+  "whitelist_unreachable": 135,
+  "whitelist_clean_rows": 1565,
+  "holdout_unreachable_by_split": {
+    "disease_cold": 23,
+    "drug_cold": 16,
+    "random": 20
+  },
+  "guard1_superset_of_edgeless": true,
+  "guard2_strictly_larger": true,
+  "whitelist_policy": "DROP unreachable from candidate_whitelist for eval (D35)"
+}

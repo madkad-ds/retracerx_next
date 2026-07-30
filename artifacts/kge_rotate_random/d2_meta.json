@@ -1,0 +1,13 @@
+{
+  "split": "random",
+  "model": "RotatE",
+  "embedding_dim": 256,
+  "batch_size": 8192,
+  "seed": 42,
+  "recovered_from": "rotate_random.pt (epoch-60 best)",
+  "smoke_metrics_all_entity_ranking": {
+    "MRR_all_entities": 0.06725259870290756,
+    "Hits@10_all_entities": 0.13892709766162312
+  },
+  "note": "smoke metrics rank against ALL entities; the project metric is D3 (whitelist+strata)"
+}

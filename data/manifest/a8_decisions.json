@@ -1,0 +1,13 @@
+{
+  "stage": "A8",
+  "relation_granularity": "composite",
+  "undirected_orientation": "single",
+  "self_loops": "drop",
+  "counts": {
+    "filtered_join_proof": 21733867,
+    "self_loops_on_filtered": 5761,
+    "after_self_loop_decision": 21728106,
+    "emitted_triples": 21728106
+  },
+  "phaseD_note": "undirected symmetry handled via PyKEEN create_inverse_triples=True (single-orientation on disk)."
+}

@@ -47,7 +47,21 @@ EDGES_CSV="$IMPORT_HOST/edges_${VARIANT}.csv"
 META_CYPHER="a3_meta_${VARIANT}.cypher"
 
 for f in "$IMPORT_HOST/nodes.csv" "$EDGES_CSV" "$IMPORT_HOST/$META_CYPHER"; do
-  test -f "$f" || { echo "[A3][FATAL] missing $f — run a3_emit_csvs.py first." >&2; exit 1; }
+  if [[ -r "$f" ]]; then continue; fi
+  # The neo4j image's entrypoint chowns its mounted directories to the container's
+  # neo4j user (uid 7474) on every `docker start`. The files then still exist but the
+  # host user cannot traverse the directory — which looks identical to "missing".
+  if sudo test -e "$f" 2>/dev/null; then
+    echo "[A3][FATAL] $f exists but is not readable by $(id -un)." >&2
+    echo "            Ownership: $(sudo stat -c '%U:%G %a' "$IMPORT_HOST" 2>/dev/null) on $IMPORT_HOST" >&2
+    echo "            The neo4j entrypoint reclaims this directory on every 'docker start'." >&2
+    echo "            Fix and re-run:" >&2
+    echo "                sudo chown -R \"\$(id -u):\$(id -g)\" $IMPORT_HOST" >&2
+    echo "                chmod 755 $IMPORT_HOST" >&2
+  else
+    echo "[A3][FATAL] missing $f — run a3_emit_csvs.py first." >&2
+  fi
+  exit 1
 done
 cp scripts/a3_constraints.cypher "$IMPORT_HOST/a3_constraints.cypher"
 

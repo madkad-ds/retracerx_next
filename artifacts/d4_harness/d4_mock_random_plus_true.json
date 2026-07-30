@@ -1,0 +1,42 @@
+{
+  "ranker": "mock",
+  "split": "random",
+  "candidate_mode": "plus_true",
+  "n_positives": 732,
+  "stratum_A_independent": {
+    "n": 38,
+    "MRR": 0.0037,
+    "Hits@1": 0.0,
+    "Hits@3": 0.0,
+    "Hits@10": 0.0
+  },
+  "stratum_B_circular": {
+    "n": 672,
+    "MRR": 0.005,
+    "Hits@1": 0.0015,
+    "Hits@3": 0.003,
+    "Hits@10": 0.0045
+  },
+  "reachable_scored_AB": {
+    "n": 710,
+    "MRR": 0.0049,
+    "Hits@1": 0.0014,
+    "Hits@3": 0.0028,
+    "Hits@10": 0.0042
+  },
+  "full_with_ceiling_as_miss": {
+    "n": 732,
+    "MRR": 0.0047,
+    "Hits@1": 0.0014,
+    "Hits@3": 0.0027,
+    "Hits@10": 0.0041
+  },
+  "ceiling": {
+    "C_unreachable_pairs": 22,
+    "C_unreachable_drugs": 20,
+    "C_not_candidate_pairs": 0,
+    "a8_unreachable_drug_count": 20,
+    "checksum_ok": true,
+    "max_achievable_recall": 0.9699
+  }
+}

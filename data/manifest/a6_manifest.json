@@ -1,0 +1,17 @@
+{
+  "stage": "A6",
+  "dataset_version": "2.0",
+  "graph_variant": "full",
+  "outputs": {
+    "data/holdout/drug_xwalk.parquet": {
+      "rows": 16766,
+      "sha256": "de6bbde61f39c6de7cb57a7863b197652f1fe729f790fbf74246c4549bc8ffbb"
+    },
+    "data/holdout/disease_xwalk.parquet": {
+      "rows": 25348,
+      "sha256": "fa038c0175ab9b70a3a465d3df39c8a0aea3bdd61ea1e0cb0992b75d91be4c4e"
+    }
+  },
+  "keys": "frozen in a6_keys.json (D10); this stage emits, does not re-decide",
+  "collapse_rules": "data/manifest/a6_decisions.json"
+}

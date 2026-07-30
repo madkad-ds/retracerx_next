@@ -1,0 +1,10 @@
+{
+  "output": "data/kge_triples.tsv",
+  "sha256": "4a16aafac7ba41746a94de8e58ea72d1e1264c48767fb093074f3db5439f52a6",
+  "rows": 21728106,
+  "inputs": {
+    "canon_edges_glob": "data/canon/canon_edges/*.parquet",
+    "removed": "data/holdout/removed_edge_ids.csv",
+    "removed_sha256": "bcd776a4ab15cd4988230134989696d4f9168e0da015f09489cf5ef602bf378f"
+  }
+}

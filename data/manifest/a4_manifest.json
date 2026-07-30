@@ -1,0 +1,35 @@
+{
+  "stage": "A4",
+  "inputs": {
+    "broad_compounds.parquet": "81e1fb6674812b603207a8bf751eec6c494441f6e1a78d97e7b7532edea31e4f",
+    "canon_nodes.parquet": "c7c331b62c845312872cdb58e0e445b36d612869ce2c0861bedab00bbb39901c",
+    "a3_lcc_excluded.parquet": "9461631803d7a74f533d509d9554d1a6fec6dee127faa065a676831383cc5361"
+  },
+  "outputs": {
+    "candidate_whitelist.parquet": "35fec89787cfa31ba97007a13ffa7e0995d3c77fca574990f3cb6df8fe545d4b",
+    "drug_targets.parquet": "b1ab22f70bebef89071588325ab081b5b241314e52e4bc1d03bbc7d9972ef43c",
+    "broad_known_indications.parquet": "d9cc7ee459c7d406a3a1502b3718868ca4da8a55677ec0b641f90bdda21b8d44",
+    "a4_inchikey_collisions.parquet": "5ca8de94d1305ee5559b9154b3478ce09bc07a597d83b0a55952bf310e5c16aa",
+    "a4_approval_crosscheck.parquet": "71763729f1ef54e3839f46c45b4d028ebdb7b1dae1a195cd3259d38a21efe60e"
+  },
+  "counts": {
+    "launched_compounds": 2718,
+    "mapped_compounds": 1713,
+    "unscoreable_launched": 984,
+    "whitelist_nodes": 1700,
+    "lcc_excluded_dropped": 21,
+    "inchikey_collision_groups": 34,
+    "drug_target_edges": 16015,
+    "unmatched_target_symbols": 66,
+    "gen_symbol_coverage": 0.9968,
+    "approval_disagreement_nodes": 345
+  },
+  "collapse_rule": "degree_desc > is_approved_desc > id_asc",
+  "collapse_rule_status": "PROVISIONAL_pending_A6",
+  "notes": [
+    "LCC exclusion by artifact (a3_lcc_excluded.parquet), never by degree (E16).",
+    "known_indications is ANNOTATION only; keyed set = DRG-DIS/INDICATION removed at A7.",
+    "inference exclusion = known indications MINUS holdout set (A4c/A7).",
+    "ship the Broad download script, not the file (CC-BY vs !Restrictions)."
+  ]
+}
