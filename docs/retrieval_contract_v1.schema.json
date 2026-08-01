@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReTraceRx Retrieval Contract v1.0",
+  "type": "object",
+  "required": [
+    "contract_version",
+    "query_disease",
+    "candidates"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.0"
+    },
+    "query_disease": {
+      "type": "object",
+      "required": [
+        "text",
+        "graph_id",
+        "curie",
+        "link_score",
+        "alternatives"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "graph_id": {
+          "type": "string"
+        },
+        "curie": {
+          "type": "string"
+        },
+        "link_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "text",
+              "graph_id",
+              "curie",
+              "link_score"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "graph_id": {
+                "type": "string"
+              },
+              "curie": {
+                "type": "string"
+              },
+              "link_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rank",
+          "drug_graph_id",
+          "drug_curie",
+          "drug_name",
+          "score",
+          "kge_score",
+          "support_count",
+          "specificity",
+          "paths"
+        ],
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "drug_graph_id": {
+            "type": "string"
+          },
+          "drug_curie": {
+            "type": "string"
+          },
+          "drug_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "score": {
+            "type": "number"
+          },
+          "kge_score": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "support_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "specificity": {
+            "type": "number"
+          },
+          "paths": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "path_id",
+                "triples",
+                "nl_evidence",
+                "sources"
+              ],
+              "properties": {
+                "path_id": {
+                  "type": "string"
+                },
+                "triples": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "nl_evidence": {
+                  "type": "string"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

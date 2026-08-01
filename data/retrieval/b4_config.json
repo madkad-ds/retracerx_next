@@ -1,0 +1,11 @@
+{
+  "_comment": "disease_cold weights: KGE demoted because Phase D D5(b) proved it is at chance on this split (AUROC 0.44, CI spans 0.5). Graph evidence (support + specificity) leads. Revisit per-split after B7 recall.",
+  "W_KGE": 0.2,
+  "W_SUP": 0.4,
+  "W_SPEC": 0.4,
+  "SUP_CAP": 5,
+  "TIER2_PENALTY": 0.5,
+  "TOP_K": 20,
+  "TOP_M": 3,
+  "DEFAULT_SPLIT": "disease_cold"
+}

@@ -1,0 +1,31 @@
+{
+  "source": "data/canon/canon_nodes.parquet",
+  "dis_nodes_total": 36345,
+  "dis_nodes_after_oba_drop": 25348,
+  "oba_dropped": 10997,
+  "strict_attr_drop": false,
+  "surface_keys_kept": [
+    "exact_synonyms",
+    "concept_names",
+    "snomed_full_names",
+    "name"
+  ],
+  "scope_keys_excluded": [
+    "broad_synonyms",
+    "narrow_synonyms",
+    "related_synonyms"
+  ],
+  "excluded_surfaces_skipped": 24934,
+  "surface_rows": 83347,
+  "surfaces_by_src": {
+    "name": 25344,
+    "snomed_full_name": 37,
+    "synonym:exact": 57485,
+    "concept_name": 481
+  },
+  "properties_json_parse_errors": 0,
+  "distinct_disease_nodes": 25344,
+  "ambiguous_surface_forms": 2494,
+  "norm_column_used": "id_norm",
+  "output": "data/retrieval/link_dict_disease.parquet"
+}

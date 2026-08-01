@@ -1,0 +1,35 @@
+{
+  "split": "random",
+  "positives": 732,
+  "unique_diseases": 295,
+  "reachable_positives": 481,
+  "coverage_ceiling": 0.6571,
+  "pool_recall_all": 0.1516,
+  "pool_recall_reachable": 0.2308,
+  "recall_at": {
+    "5": {
+      "all": 0.0164,
+      "reachable": 0.0249
+    },
+    "10": {
+      "all": 0.0219,
+      "reachable": 0.0333
+    },
+    "20": {
+      "all": 0.0314,
+      "reachable": 0.0478
+    },
+    "50": {
+      "all": 0.0478,
+      "reachable": 0.0728
+    },
+    "100": {
+      "all": 0.0833,
+      "reachable": 0.1268
+    }
+  },
+  "median_hit_rank_reachable": 83,
+  "diseases_with_zero_candidates": 11,
+  "diseases_retrieval_failed": 0,
+  "diseases_retrieval_failed_ids": []
+}
