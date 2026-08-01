@@ -1,0 +1,35 @@
+{
+  "split": "drug_cold",
+  "positives": 916,
+  "unique_diseases": 353,
+  "reachable_positives": 549,
+  "coverage_ceiling": 0.5993,
+  "pool_recall_all": 0.1168,
+  "pool_recall_reachable": 0.1949,
+  "recall_at": {
+    "5": {
+      "all": 0.0098,
+      "reachable": 0.0164
+    },
+    "10": {
+      "all": 0.0142,
+      "reachable": 0.0237
+    },
+    "20": {
+      "all": 0.0229,
+      "reachable": 0.0383
+    },
+    "50": {
+      "all": 0.0415,
+      "reachable": 0.0692
+    },
+    "100": {
+      "all": 0.0688,
+      "reachable": 0.1148
+    }
+  },
+  "median_hit_rank_reachable": 85,
+  "diseases_with_zero_candidates": 13,
+  "diseases_retrieval_failed": 0,
+  "diseases_retrieval_failed_ids": []
+}

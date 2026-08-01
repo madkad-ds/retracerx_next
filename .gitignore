@@ -10,3 +10,5 @@ data/canon/
 *.tsv.gz
 *.pkl
 data/kge_triples.tsv
+data/retrieval/faiss_disease.index
+data/retrieval/faiss_disease_meta.parquet
