@@ -1,0 +1,42 @@
+{
+  "ranker": "grounded_agent",
+  "split": "disease_cold",
+  "candidate_mode": "plus_true",
+  "n_positives": 784,
+  "stratum_A_independent": {
+    "n": 31,
+    "MRR": 0.0018,
+    "Hits@1": 0.0,
+    "Hits@3": 0.0,
+    "Hits@10": 0.0
+  },
+  "stratum_B_circular": {
+    "n": 725,
+    "MRR": 0.0127,
+    "Hits@1": 0.0069,
+    "Hits@3": 0.011,
+    "Hits@10": 0.0138
+  },
+  "reachable_scored_AB": {
+    "n": 756,
+    "MRR": 0.0122,
+    "Hits@1": 0.0066,
+    "Hits@3": 0.0106,
+    "Hits@10": 0.0132
+  },
+  "full_with_ceiling_as_miss": {
+    "n": 784,
+    "MRR": 0.0118,
+    "Hits@1": 0.0064,
+    "Hits@3": 0.0102,
+    "Hits@10": 0.0128
+  },
+  "ceiling": {
+    "C_unreachable_pairs": 28,
+    "C_unreachable_drugs": 23,
+    "C_not_candidate_pairs": 0,
+    "a8_unreachable_drug_count": 23,
+    "checksum_ok": true,
+    "max_achievable_recall": 0.9643
+  }
+}

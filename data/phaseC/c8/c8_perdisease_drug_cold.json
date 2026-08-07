@@ -1,0 +1,3158 @@
+[
+  {
+    "disease": "DOID_7551",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0000095",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0000174",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000182",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0000218",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000220",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000221",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000222",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000224",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000274",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0000275",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000278",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0000305",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000309",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000319",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0000339",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0000341",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000384",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0000398",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0000401",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0000403",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0000464",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000474",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000479",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000537",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000555",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000558",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0000574",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000621",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0000676",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000681",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0000685",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000701",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000712",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000713",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "EFO_0000717",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0000729",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0000764",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0000778",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0001068",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0001073",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0001361",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0001378",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0002429",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0002918",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0003060",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0003103",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0003106",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0003763",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0003767",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0003768",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0003778",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0003779",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0003830",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0003833",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0003854",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 1
+  },
+  {
+    "disease": "EFO_0003875",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0003888",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0003898",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 2
+  },
+  {
+    "disease": "EFO_0003911",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0003929",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0003948",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0003956",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0003966",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004190",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0004208",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0004212",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004234",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0004239",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004242",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0004255",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0004261",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0004262",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0004263",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004270",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0004274",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004283",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0004287",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004562",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "EFO_0004607",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0004698",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0004705",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0004777",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0004799",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0004991",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005088",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005204",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0005224",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005251",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005252",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005319",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005531",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0005532",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0005542",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005549",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005583",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0005585",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005593",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005611",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0005672",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0005681",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005687",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0005758",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "EFO_0005809",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0005854",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0005856",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0006505",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0006788",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0006789",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0006859",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007126",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007128",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0007141",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007144",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007154",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007157",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007174",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0007185",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007203",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007207",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007211",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007214",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007219",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007254",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007262",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007291",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007308",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0007310",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "EFO_0007328",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0007340",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007353",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 1,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0007368",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0007387",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "EFO_0007404",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007406",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007410",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007417",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0007420",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 4,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007424",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007429",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 8,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0007439",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007444",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0007445",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007470",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 3,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007477",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007481",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007486",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_0007496",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007499",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007504",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007512",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0007517",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007533",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007543",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0007548",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0007549",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0008521",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0008526",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0008533",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_0008588",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0008997",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0009086",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0009425",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_0009449",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0009451",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 2
+  },
+  {
+    "disease": "EFO_0009454",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0009456",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0009491",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0009550",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_0009560",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_0009661",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_0009676",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000013",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000025",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_1000044",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000049",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000131",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000294",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000630",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000684",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000694",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000697",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000704",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000749",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000760",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000761",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000764",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000782",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000792",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000797",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000811",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000829",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000830",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000831",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000845",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000916",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "EFO_1000928",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1000929",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1000948",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1000956",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1000997",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1001006",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_1001021",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001040",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001051",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001055",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1001069",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001095",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "EFO_1001103",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001114",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001132",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001141",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001144",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 3,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001152",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "EFO_1001161",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001162",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001173",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001231",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1001240",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001264",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001272",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001312",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001318",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001351",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001362",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001375",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001399",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001402",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001435",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001444",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001462",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001475",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001476",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001486",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001512",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "EFO_1001779",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "EFO_1001795",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1001849",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001869",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "EFO_1001887",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "EFO_1001892",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "EFO_1001993",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0000257",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "MONDO_0000313",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "MONDO_0000831",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0000879",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0000945",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0001024",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0001056",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0001080",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0001134",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0001198",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0001316",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0001444",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0001701",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0001734",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0001744",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0001909",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0002009",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0002026",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0002041",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0002050",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0002108",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "MONDO_0002186",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0002258",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0002307",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 2,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0002471",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0002508",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0002691",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0003482",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "MONDO_0004126",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "MONDO_0004215",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0004247",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0004497",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0004555",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0004577",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0004678",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0004737",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "MONDO_0004773",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0004789",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0004857",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0004944",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0004975",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0004976",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0004979",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0005090",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0005148",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0005149",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0005178",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0005180",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0005247",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0005277",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0005301",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0006058",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0007079",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0007915",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0008170",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0008231",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0008315",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "MONDO_0008380",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0008638",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0008903",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0009061",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0009348",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0009797",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0010679",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 3,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0011382",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0011719",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0015129",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0015277",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0015758",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0016532",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0016586",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0017169",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0018088",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 2
+  },
+  {
+    "disease": "MONDO_0018097",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0018150",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0018328",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0018473",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 10
+  },
+  {
+    "disease": "MONDO_0018479",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0018493",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0018555",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 2
+  },
+  {
+    "disease": "MONDO_0018612",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "MONDO_0018906",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0018944",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0018975",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 0
+  },
+  {
+    "disease": "MONDO_0018997",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0019338",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 8,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0019402",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 3
+  },
+  {
+    "disease": "MONDO_0019438",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0019471",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0019623",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0019801",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0020699",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0021063",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 4,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0021095",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 7,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0021107",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  },
+  {
+    "disease": "MONDO_0021108",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 6,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0021187",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 2,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0025598",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 5
+  },
+  {
+    "disease": "MONDO_0030602",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0037748",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0040732",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0040998",
+    "abstain": true,
+    "cause": "no_faithful_support",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0041086",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 7
+  },
+  {
+    "disease": "MONDO_0041448",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 9
+  },
+  {
+    "disease": "MONDO_0041903",
+    "abstain": true,
+    "cause": "zero_candidate",
+    "n_picks": 0,
+    "n_faithful": 0,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "MONDO_0042233",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 5,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0042972",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0044903",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "MONDO_0850093",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 10,
+    "no_support": false,
+    "ungrounded_n_picks": 8
+  },
+  {
+    "disease": "Orphanet_124",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 9,
+    "no_support": false,
+    "ungrounded_n_picks": 6
+  },
+  {
+    "disease": "Orphanet_882",
+    "abstain": false,
+    "cause": null,
+    "n_picks": 10,
+    "n_faithful": 1,
+    "no_support": false,
+    "ungrounded_n_picks": 4
+  }
+]
