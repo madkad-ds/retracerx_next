@@ -5,31 +5,31 @@
   "n_positives": 732,
   "stratum_A_independent": {
     "n": 38,
-    "MRR": 0.0037,
+    "MRR": 0.004,
     "Hits@1": 0.0,
     "Hits@3": 0.0,
     "Hits@10": 0.0
   },
   "stratum_B_circular": {
     "n": 672,
-    "MRR": 0.005,
+    "MRR": 0.0059,
     "Hits@1": 0.0015,
     "Hits@3": 0.003,
-    "Hits@10": 0.0045
+    "Hits@10": 0.0074
   },
   "reachable_scored_AB": {
     "n": 710,
-    "MRR": 0.0049,
+    "MRR": 0.0058,
     "Hits@1": 0.0014,
     "Hits@3": 0.0028,
-    "Hits@10": 0.0042
+    "Hits@10": 0.007
   },
   "full_with_ceiling_as_miss": {
     "n": 732,
-    "MRR": 0.0047,
+    "MRR": 0.0057,
     "Hits@1": 0.0014,
     "Hits@3": 0.0027,
-    "Hits@10": 0.0041
+    "Hits@10": 0.0068
   },
   "ceiling": {
     "C_unreachable_pairs": 22,

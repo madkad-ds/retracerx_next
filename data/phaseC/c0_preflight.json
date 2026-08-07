@@ -1,0 +1,76 @@
+{
+  "generated_utc": "2026-08-02T06:02:55.590973+00:00",
+  "scope": "core",
+  "repo_root": "/home/ec2-user/retracerx",
+  "results": [
+    {
+      "check": "contract_v1.0",
+      "ok": true,
+      "hard": true,
+      "detail": "md=ok; schema=ok; contract_version const == 1.0"
+    },
+    {
+      "check": "b5_serialize.compute_path_id",
+      "ok": true,
+      "hard": true,
+      "detail": "id='p_203232b477' deterministic=True"
+    },
+    {
+      "check": "b6_tools API",
+      "ok": true,
+      "hard": true,
+      "detail": "all present"
+    },
+    {
+      "check": "d4_harness.evaluate",
+      "ok": true,
+      "hard": false,
+      "detail": "evaluate() callable; Ranker.rank(self, disease: 'str', universe: 'set[str]') -> 'list[str]'"
+    },
+    {
+      "check": "reachable whitelist (1,565)",
+      "ok": true,
+      "hard": true,
+      "detail": "1565 rows (expect 1565); cols=['okg_drug_id', 'name', 'inchi_key', 'is_approved', 'clinical_phase', 'pert_iname', 'map_via']"
+    },
+    {
+      "check": "kge assets [random]",
+      "ok": true,
+      "hard": true,
+      "detail": "ind_relation='DRG-DIS__INDICATION' (hyphen ok=True); derived Neo4j TYPE='DRG_DIS__INDICATION'"
+    },
+    {
+      "check": "kge assets [disease_cold]",
+      "ok": true,
+      "hard": true,
+      "detail": "ind_relation='DRG-DIS__INDICATION' (hyphen ok=True); derived Neo4j TYPE='DRG_DIS__INDICATION'"
+    },
+    {
+      "check": "kge assets [drug_cold]",
+      "ok": true,
+      "hard": false,
+      "detail": "ind_relation='DRG-DIS__INDICATION' (hyphen ok=True); derived Neo4j TYPE='DRG_DIS__INDICATION'"
+    },
+    {
+      "check": "core reasoner deps",
+      "ok": true,
+      "hard": false,
+      "detail": "transformers=ok; guided backends present=['lmfe']; selected=lmfe; cuda=True"
+    },
+    {
+      "check": "Neo4j filtered/50-types",
+      "ok": true,
+      "hard": false,
+      "detail": "graph_variant='filtered', relationshipTypes=50 (expect filtered/50)"
+    },
+    {
+      "check": "writable logs/ and data/phaseC/",
+      "ok": true,
+      "hard": true,
+      "detail": "/home/ec2-user/retracerx/logs , /home/ec2-user/retracerx/data/phaseC"
+    }
+  ],
+  "hard_failures": 0,
+  "soft_warnings": 0,
+  "gate": "PASS"
+}

@@ -1,0 +1,10 @@
+split,baseline,n_pairs,agent_mrr,base_mrr,mrr_delta,ci_lo,ci_hi,ci_excludes_0,discordant_total
+disease_cold,kge,31,0.0018,0.0036,-0.0018,-0.0048,+0.0005,no,0
+disease_cold,graph_rag,31,0.0018,0.0019,-0.0001,-0.0002,+0.0000,no,0
+disease_cold,ungrounded_llm,31,0.0018,0.0020,-0.0002,-0.0003,-0.0001,yes,0
+random,kge,38,0.0285,0.0282,+0.0003,-0.0287,+0.0354,no,3
+random,graph_rag,38,0.0285,0.0110,+0.0175,-0.0001,+0.0526,no,1
+random,ungrounded_llm,38,0.0285,0.0287,-0.0001,-0.0002,-0.0001,yes,0
+drug_cold,kge,24,0.0051,0.0111,-0.0060,-0.0184,+0.0039,no,1
+drug_cold,graph_rag,24,0.0051,0.0052,-0.0001,-0.0004,+0.0000,no,0
+drug_cold,ungrounded_llm,24,0.0051,0.0082,-0.0032,-0.0088,-0.0003,yes,1

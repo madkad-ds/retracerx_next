@@ -1,0 +1,7007 @@
+{
+  "split": "drug_cold",
+  "mode": "plus_true",
+  "n_diseases": 353,
+  "n_abstain": 21,
+  "grounded": {
+    "mean_pick_hallucination": 0.2564,
+    "ci95": [
+      0.2293,
+      0.2835
+    ],
+    "totals": {
+      "n_picks": 3281,
+      "n_faithful": 2438,
+      "n_unsupported": 843,
+      "n_citation_failure": 0,
+      "n_abstain": 21
+    },
+    "unfaithful_breakdown": {
+      "unsupported_calibration": 843,
+      "citation_failure_verifier_catch": 0
+    }
+  },
+  "ungrounded_free": {
+    "mean_pick_hallucination": 1.0,
+    "note": "by construction (no paths)"
+  },
+  "hallucination_gap": 0.7436,
+  "per_disease": [
+    {
+      "disease": "DOID_7551",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000095",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000174",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000182",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000218",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000220",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000221",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000222",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000224",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000274",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000275",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000278",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000305",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000309",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000319",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000339",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000341",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000384",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000398",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000401",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000403",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000464",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000474",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000479",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000537",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000555",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000558",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000574",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000621",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000676",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000681",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000685",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000701",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000712",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000713",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000717",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000729",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000764",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0000778",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0001068",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0001073",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0001361",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0001378",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0002429",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0002918",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003060",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003103",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003106",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003763",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003767",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003768",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003778",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003779",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003830",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003833",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003854",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 1,
+        "n_picks": 1,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003875",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003888",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003898",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 2,
+        "n_picks": 2,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003911",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003929",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003948",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003956",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0003966",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004190",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004208",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004212",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004234",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004239",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004242",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004255",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004261",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004262",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004263",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004270",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004274",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004283",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004287",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004562",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004607",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004698",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004705",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004777",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004799",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0004991",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005088",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005204",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005224",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005251",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005252",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005319",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005531",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005532",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005542",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005549",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005583",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005585",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005593",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005611",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005672",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005681",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005687",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005758",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005809",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005854",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0005856",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0006505",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0006788",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0006789",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0006859",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007126",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007128",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007141",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007144",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007154",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007157",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007174",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007185",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007203",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007207",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007211",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007214",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007219",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007254",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007262",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007291",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007308",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007310",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007328",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007340",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007353",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 1,
+        "n_faithful": 1,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007368",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007387",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007404",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007406",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007410",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007417",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007420",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 4,
+        "n_faithful": 1,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.75
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007424",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007429",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 8,
+        "n_faithful": 3,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.625
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007439",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007444",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007445",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007470",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 3,
+        "n_faithful": 3,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007477",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007481",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007486",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007496",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007499",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007504",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007512",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007517",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007533",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007543",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007548",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0007549",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0008521",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0008526",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0008533",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0008588",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0008997",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009086",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009425",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009449",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009451",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 2,
+        "n_picks": 2,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009454",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009456",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009491",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009550",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009560",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009661",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_0009676",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000013",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000025",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000044",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000049",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000131",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000294",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000630",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000684",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000694",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000697",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000704",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000749",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000760",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000761",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000764",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000782",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000792",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000797",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000811",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000829",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000830",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000831",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000845",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000916",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000928",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000929",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000948",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000956",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1000997",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001006",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001021",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001040",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001051",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001055",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001069",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001095",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001103",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001114",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001132",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001141",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001144",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 3,
+        "n_faithful": 2,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3333
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001152",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001161",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001162",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001173",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001231",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001240",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001264",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001272",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001312",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001318",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001351",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001362",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001375",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001399",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001402",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001435",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001444",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001462",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001475",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001476",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001486",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001512",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001779",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001795",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001849",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001869",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001887",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001892",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "EFO_1001993",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0000257",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0000313",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0000831",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0000879",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0000945",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001024",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001056",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001080",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001134",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001198",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001316",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001444",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001701",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001734",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001744",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0001909",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002009",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002026",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002041",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002050",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002108",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002186",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002258",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002307",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 2,
+        "n_faithful": 2,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002471",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002508",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0002691",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0003482",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004126",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004215",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004247",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004497",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004555",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004577",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004678",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004737",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004773",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004789",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004857",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004944",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004975",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004976",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0004979",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005090",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005148",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005149",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005178",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005180",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005247",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005277",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0005301",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0006058",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0007079",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0007915",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008170",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008231",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008315",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008380",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008638",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0008903",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0009061",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0009348",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0009797",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0010679",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 3,
+        "n_unsupported": 7,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.7
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0011382",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0011719",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0015129",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0015277",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0015758",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0016532",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0016586",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0017169",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018088",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 2,
+        "n_picks": 2,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018097",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018150",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018328",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018473",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 10,
+        "n_picks": 10,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018479",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018493",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018555",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 2,
+        "n_picks": 2,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018612",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018906",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018944",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018975",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 0,
+        "n_picks": 0,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 0.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0018997",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019338",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 8,
+        "n_unsupported": 2,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.2
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019402",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 3,
+        "n_picks": 3,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019438",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019471",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019623",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0019801",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0020699",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0021063",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 4,
+        "n_unsupported": 6,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.6
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0021095",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 7,
+        "n_unsupported": 3,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.3
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0021107",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0021108",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 6,
+        "n_unsupported": 4,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.4
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0021187",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 2,
+        "n_unsupported": 8,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.8
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0025598",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 5,
+        "n_picks": 5,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0030602",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0037748",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0040732",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0040998",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0041086",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 7,
+        "n_picks": 7,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0041448",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 9,
+        "n_picks": 9,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0041903",
+      "grounded": {
+        "abstain": true,
+        "n_picks": 0
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0042233",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 5,
+        "n_unsupported": 5,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.5
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0042972",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0044903",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "MONDO_0850093",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 10,
+        "n_unsupported": 0,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.0
+      },
+      "ungrounded_free": {
+        "n_mapped": 8,
+        "n_picks": 8,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "Orphanet_124",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 9,
+        "n_unsupported": 1,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.1
+      },
+      "ungrounded_free": {
+        "n_mapped": 6,
+        "n_picks": 6,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    },
+    {
+      "disease": "Orphanet_882",
+      "grounded": {
+        "abstain": false,
+        "n_picks": 10,
+        "n_faithful": 1,
+        "n_unsupported": 9,
+        "n_citation_failure": 0,
+        "pick_level_hallucination": 0.9
+      },
+      "ungrounded_free": {
+        "n_mapped": 4,
+        "n_picks": 4,
+        "n_faithful": 0,
+        "n_real_citations": 0,
+        "n_hallucinated_citations": 0,
+        "pick_level_hallucination": 1.0,
+        "claim_level_hallucination": 0.0
+      }
+    }
+  ]
+}

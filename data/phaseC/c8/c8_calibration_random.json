@@ -1,0 +1,56 @@
+{
+  "split": "random",
+  "mode": "plus_true",
+  "n_diseases": 295,
+  "n_picks": 2733,
+  "abstention": {
+    "grounded_abstain_rate": 0.0576,
+    "grounded_no_support_rate": 0.0,
+    "grounded_answer_rate": 0.9424,
+    "grounded_declines_total_rate": 0.0576,
+    "ungrounded_abstain_rate": 0.0,
+    "abstain_causes": {
+      "zero_candidate": 11,
+      "no_faithful_support": 6
+    }
+  },
+  "hallucination_under_pressure": {
+    "grounded_confident_but_unverifiable": 0,
+    "grounded_confident_invention_rate": 0.0,
+    "ungrounded_pick_hallucination": 1.0,
+    "note": "grounded never confidently invents (citation-enum + verify); ungrounded always answers, 0 grounded citations"
+  },
+  "calibration": {
+    "auroc_confidence_predicts_faithful": 0.9879,
+    "mean_conf_faithful": 0.733,
+    "mean_conf_unfaithful": 0.119,
+    "reliability_bins": [
+      {
+        "bin": "[0.0,0.2)",
+        "n": 493,
+        "frac_faithful": 0.0
+      },
+      {
+        "bin": "[0.2,0.4)",
+        "n": 21,
+        "frac_faithful": 0.095
+      },
+      {
+        "bin": "[0.4,0.6)",
+        "n": 416,
+        "frac_faithful": 0.712
+      },
+      {
+        "bin": "[0.6,0.8)",
+        "n": 809,
+        "frac_faithful": 1.0
+      },
+      {
+        "bin": "[0.8,1.0)",
+        "n": 995,
+        "frac_faithful": 1.0
+      }
+    ],
+    "caveat": "faithful~=supported under guided decoding; confidence emitted alongside supported -> self-consistency, not external calibration"
+  }
+}
