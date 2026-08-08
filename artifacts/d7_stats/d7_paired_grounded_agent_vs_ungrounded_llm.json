@@ -1,0 +1,74 @@
+[
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "random",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 6,
+    "mean_delta_RR": -0.0002,
+    "lo": -0.0004,
+    "hi": -0.0001,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "drug_cold",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 4,
+    "mean_delta_RR": -0.0006,
+    "lo": -0.0017,
+    "hi": -0.0,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "disease_cold",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 31,
+    "mean_delta_RR": -0.0002,
+    "lo": -0.0003,
+    "hi": -0.0001,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "drug_cold",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 24,
+    "mean_delta_RR": -0.0032,
+    "lo": -0.0088,
+    "hi": -0.0003,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "random",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 38,
+    "mean_delta_RR": -0.0001,
+    "lo": -0.0002,
+    "hi": -0.0001,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "ungrounded_llm",
+    "split": "disease_cold",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 4,
+    "mean_delta_RR": -0.0002,
+    "lo": -0.0006,
+    "hi": -0.0,
+    "significant": true
+  }
+]

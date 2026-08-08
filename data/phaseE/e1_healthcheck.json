@@ -1,0 +1,74 @@
+{
+  "healthy": true,
+  "n_checks": 11,
+  "hard_failures": 0,
+  "soft_warnings": 0,
+  "checks": [
+    {
+      "check": "vLLM auth key resolved",
+      "ok": true,
+      "level": "SOFT",
+      "detail": "from /home/ec2-user/retracerx/scripts/c1_serve_vllm_fp16.sh"
+    },
+    {
+      "check": "vLLM serves pinned model",
+      "ok": true,
+      "level": "HARD",
+      "detail": "Qwen/Qwen3.5-9B served as 'reasoner'"
+    },
+    {
+      "check": "guided JSON parses",
+      "ok": true,
+      "level": "HARD",
+      "detail": "{\"ok\": true}"
+    },
+    {
+      "check": "no 'Thinking Process:' preamble",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "determinism (byte-identical replay)",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "Neo4j Bolt reachable",
+      "ok": true,
+      "level": "HARD",
+      "detail": "bolt://localhost:7687"
+    },
+    {
+      "check": "APOC loaded",
+      "ok": true,
+      "level": "HARD",
+      "detail": "5.26.28"
+    },
+    {
+      "check": "filtered variant (leakage == 0)",
+      "ok": true,
+      "level": "HARD",
+      "detail": "DRG_DIS__INDICATION count = 0"
+    },
+    {
+      "check": "GPU total is 24 GB-class",
+      "ok": true,
+      "level": "HARD",
+      "detail": "45.0 GB"
+    },
+    {
+      "check": "weights resident ~ 18 GB (FP16, no quant)",
+      "ok": true,
+      "level": "SOFT",
+      "detail": "used 39.6 GB"
+    },
+    {
+      "check": "KV-cache headroom >= 3.0 GB",
+      "ok": true,
+      "level": "HARD",
+      "detail": "free 5.3 GB (lower --max-model-len if this is tight)"
+    }
+  ]
+}

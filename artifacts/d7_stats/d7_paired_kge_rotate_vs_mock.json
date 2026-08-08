@@ -1,0 +1,14 @@
+[
+  {
+    "a": "kge_rotate",
+    "b": "mock",
+    "split": "random",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 38,
+    "mean_delta_RR": 0.0242,
+    "lo": 0.0008,
+    "hi": 0.0591,
+    "significant": true
+  }
+]

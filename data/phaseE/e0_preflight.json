@@ -1,0 +1,266 @@
+{
+  "gate_open": true,
+  "n_checks": 43,
+  "hard_failures": 0,
+  "soft_warnings": 4,
+  "checks": [
+    {
+      "check": "contract.md",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/docs/retrieval_contract_v1.md"
+    },
+    {
+      "check": "contract.schema.json",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/docs/retrieval_contract_v1.schema.json"
+    },
+    {
+      "check": "contract.version==1.0",
+      "ok": true,
+      "level": "HARD",
+      "detail": "contract_version 1.0 referenced"
+    },
+    {
+      "check": "b5_serialize.py (compute_path_id)",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/scripts/b5_serialize.py"
+    },
+    {
+      "check": "b6_tools.py",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/scripts/b6_tools.py"
+    },
+    {
+      "check": "b5_serialize defines compute_path_id",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "b6_tools defines link_entity",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "b6_tools defines retrieve_candidates",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "b6_tools defines score_pair",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "b6_tools defines link_and_retrieve",
+      "ok": true,
+      "level": "HARD",
+      "detail": ""
+    },
+    {
+      "check": "whitelist has inchi_key col",
+      "ok": true,
+      "level": "HARD",
+      "detail": "['okg_drug_id', 'name', 'inchi_key', 'is_approved', 'clinical_phase', 'pert_iname', 'map_via']"
+    },
+    {
+      "check": "whitelist rows == 1565",
+      "ok": true,
+      "level": "HARD",
+      "detail": "found 1565"
+    },
+    {
+      "check": "kge model [random]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_rotate_random/trained_model.pkl"
+    },
+    {
+      "check": "kge meta  [random]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_data/random/d1_meta.json"
+    },
+    {
+      "check": "holdout positives [random]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/holdout/splits/random_holdout_positives.csv"
+    },
+    {
+      "check": "kge model [disease_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_rotate_disease_cold/trained_model.pkl"
+    },
+    {
+      "check": "kge meta  [disease_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_data/disease_cold/d1_meta.json"
+    },
+    {
+      "check": "holdout positives [disease_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/holdout/splits/disease_cold_holdout_positives.csv"
+    },
+    {
+      "check": "kge model [drug_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_rotate_drug_cold/trained_model.pkl"
+    },
+    {
+      "check": "kge meta  [drug_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/artifacts/kge_data/drug_cold/d1_meta.json"
+    },
+    {
+      "check": "holdout positives [drug_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/holdout/splits/drug_cold_holdout_positives.csv"
+    },
+    {
+      "check": "neo4j_env.sh",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/scripts/neo4j_env.sh"
+    },
+    {
+      "check": "neo4j/plugins bind exists",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/neo4j/plugins"
+    },
+    {
+      "check": "neo4j/data bind exists",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/neo4j/data"
+    },
+    {
+      "check": "APOC loaded (live apoc.version())",
+      "ok": true,
+      "level": "HARD",
+      "detail": "container up"
+    },
+    {
+      "check": "c1_serve_vllm_fp16.sh",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/scripts/c1_serve_vllm_fp16.sh"
+    },
+    {
+      "check": "vLLM image is DIGEST-pinned (sha256)",
+      "ok": true,
+      "level": "HARD",
+      "detail": "vllm/vllm-openai@sha256:ffb2d59b1c05\u2026  (from /home/ec2-user/retracerx/scripts/c1_serve_vllm_fp16.sh)"
+    },
+    {
+      "check": "GPU total >= 22000 MiB",
+      "ok": true,
+      "level": "HARD",
+      "detail": "46068 MiB"
+    },
+    {
+      "check": "d7_percell_ci.csv (per-cell CIs)",
+      "ok": false,
+      "level": "SOFT",
+      "detail": "not found; dashboard will back CIs with paired_summary.csv instead"
+    },
+    {
+      "check": "paired_summary.csv",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/paired/paired_summary.csv"
+    },
+    {
+      "check": "c3_faithfulness [random]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c3_faithfulness_random_plus_true.json"
+    },
+    {
+      "check": "c8_calibration  [random]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c8/c8_calibration_random.json"
+    },
+    {
+      "check": "c3_faithfulness [disease_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c3_faithfulness_disease_cold_plus_true.json"
+    },
+    {
+      "check": "c8_calibration  [disease_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c8/c8_calibration_disease_cold.json"
+    },
+    {
+      "check": "c3_faithfulness [drug_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c3_faithfulness_drug_cold_plus_true.json"
+    },
+    {
+      "check": "c8_calibration  [drug_cold]",
+      "ok": true,
+      "level": "HARD",
+      "detail": "/home/ec2-user/retracerx/data/phaseC/c8/c8_calibration_drug_cold.json"
+    },
+    {
+      "check": "uv on PATH",
+      "ok": true,
+      "level": "SOFT",
+      "detail": "needed for the serve venv"
+    },
+    {
+      "check": "docker on PATH",
+      "ok": true,
+      "level": "HARD",
+      "detail": "needed for E1"
+    },
+    {
+      "check": "port 8000 (vllm) free",
+      "ok": false,
+      "level": "SOFT",
+      "detail": "in use \u2014 likely the Phase C neo4j/vllm still up (fine for E1)"
+    },
+    {
+      "check": "port 7687 (neo4j_bolt) free",
+      "ok": false,
+      "level": "SOFT",
+      "detail": "in use \u2014 likely the Phase C neo4j/vllm still up (fine for E1)"
+    },
+    {
+      "check": "port 7474 (neo4j_http) free",
+      "ok": false,
+      "level": "SOFT",
+      "detail": "in use \u2014 likely the Phase C neo4j/vllm still up (fine for E1)"
+    },
+    {
+      "check": "port 8080 (api) free",
+      "ok": true,
+      "level": "SOFT",
+      "detail": ""
+    },
+    {
+      "check": "port 8501 (ui) free",
+      "ok": true,
+      "level": "SOFT",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "drug_cold",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 24,
+    "mean_delta_RR": -0.006,
+    "lo": -0.0194,
+    "hi": 0.0038,
+    "significant": false
+  },
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "disease_cold",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 31,
+    "mean_delta_RR": -0.0018,
+    "lo": -0.0049,
+    "hi": 0.0004,
+    "significant": false
+  },
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "drug_cold",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 4,
+    "mean_delta_RR": -0.0027,
+    "lo": -0.0175,
+    "hi": 0.0089,
+    "significant": false
+  },
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "random",
+    "candidate_mode": "plus_true",
+    "stratum": "A_independent",
+    "n_paired": 38,
+    "mean_delta_RR": 0.0003,
+    "lo": -0.0288,
+    "hi": 0.0355,
+    "significant": false
+  },
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "disease_cold",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 4,
+    "mean_delta_RR": -0.0094,
+    "lo": -0.0264,
+    "hi": -0.0002,
+    "significant": true
+  },
+  {
+    "a": "grounded_agent",
+    "b": "kge_rotate",
+    "split": "random",
+    "candidate_mode": "whitelist",
+    "stratum": "A_independent",
+    "n_paired": 6,
+    "mean_delta_RR": 0.0216,
+    "lo": -0.1659,
+    "hi": 0.2442,
+    "significant": false
+  }
+]

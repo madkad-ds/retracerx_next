@@ -1,0 +1,45 @@
+{
+  "split": "disease_cold",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_pos_total": 784,
+  "n_neg_total": 208,
+  "neg_dropped_vocab": 0,
+  "C_unreachable_pos": 28,
+  "discrimination": {
+    "full_AB": {
+      "n_pos": 756,
+      "n_neg": 208,
+      "pos_dropped_vocab": 0,
+      "neg_dropped_vocab": 0,
+      "prevalence": 0.7842,
+      "AUROC": 0.4767,
+      "AUROC_95CI": [
+        0.4356,
+        0.5189
+      ],
+      "AUPRC": 0.7873,
+      "AUPRC_95CI": [
+        0.7529,
+        0.8205
+      ]
+    },
+    "A_only": {
+      "n_pos": 31,
+      "n_neg": 208,
+      "pos_dropped_vocab": 0,
+      "neg_dropped_vocab": 0,
+      "prevalence": 0.1297,
+      "AUROC": 0.4435,
+      "AUROC_95CI": [
+        0.3326,
+        0.556
+      ],
+      "AUPRC": 0.1831,
+      "AUPRC_95CI": [
+        0.0876,
+        0.3049
+      ]
+    }
+  },
+  "note": "AUROC on held-out pos vs frozen-holdout neg; AUPRC baseline = prevalence. full_AB = reachable positives; A_only = graph-independent (honest) positives."
+}
