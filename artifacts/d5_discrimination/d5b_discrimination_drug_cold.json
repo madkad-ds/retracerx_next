@@ -1,0 +1,45 @@
+{
+  "split": "drug_cold",
+  "ind_relation": "DRG-DIS__INDICATION",
+  "n_pos_total": 916,
+  "n_neg_total": 323,
+  "neg_dropped_vocab": 0,
+  "C_unreachable_pos": 32,
+  "discrimination": {
+    "full_AB": {
+      "n_pos": 884,
+      "n_neg": 323,
+      "pos_dropped_vocab": 0,
+      "neg_dropped_vocab": 0,
+      "prevalence": 0.7324,
+      "AUROC": 0.5076,
+      "AUROC_95CI": [
+        0.4726,
+        0.5454
+      ],
+      "AUPRC": 0.7429,
+      "AUPRC_95CI": [
+        0.7075,
+        0.7762
+      ]
+    },
+    "A_only": {
+      "n_pos": 24,
+      "n_neg": 323,
+      "pos_dropped_vocab": 0,
+      "neg_dropped_vocab": 0,
+      "prevalence": 0.0692,
+      "AUROC": 0.5396,
+      "AUROC_95CI": [
+        0.4058,
+        0.665
+      ],
+      "AUPRC": 0.1856,
+      "AUPRC_95CI": [
+        0.0629,
+        0.3535
+      ]
+    }
+  },
+  "note": "AUROC on held-out pos vs frozen-holdout neg; AUPRC baseline = prevalence. full_AB = reachable positives; A_only = graph-independent (honest) positives."
+}
