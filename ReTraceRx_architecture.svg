@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 892" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif">
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#475569"/>
+    </marker>
+    <filter id="sh" x="-8%" y="-8%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1240" height="892" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="34" y="38" font-size="23" font-weight="800" fill="#0f172a">ReTraceRx — system architecture</text>
+  <text x="34" y="60" font-size="13" fill="#64748b">Faithfulness-constrained Graph-RAG drug-repurposing co-pilot · frozen artifacts flow left → right</text>
+
+  <!-- ============ LANE A : DATA ============ -->
+  <rect x="24" y="78" width="1192" height="126" rx="10" fill="#eef2ff"/>
+  <text x="40" y="104" font-size="13" font-weight="800" fill="#4338ca">A</text>
+  <text x="40" y="122" font-size="11.5" font-weight="700" fill="#4338ca">Data</text>
+  <text x="40" y="138" font-size="11.5" font-weight="700" fill="#4338ca">foundations</text>
+
+  <g filter="url(#sh)">
+    <rect x="126" y="100" width="196" height="82" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.5"/>
+    <rect x="352" y="100" width="196" height="82" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.5"/>
+    <rect x="578" y="100" width="182" height="82" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.5"/>
+    <rect x="790" y="100" width="210" height="82" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.5"/>
+    <rect x="1030" y="100" width="180" height="82" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.5"/>
+  </g>
+  <text x="224" y="128" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">OptimusKG-2.0</text>
+  <text x="224" y="146" font-size="10.5" fill="#475569" text-anchor="middle">190,531 nodes · 21.7M edges</text>
+  <text x="224" y="161" font-size="10.5" fill="#475569" text-anchor="middle">50 composite relations</text>
+
+  <text x="450" y="128" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Leakage control</text>
+  <text x="450" y="146" font-size="10.5" fill="#475569" text-anchor="middle">remove DRG–DIS label</text>
+  <text x="450" y="161" font-size="10.5" fill="#475569" text-anchor="middle">70,380 edges · provenance</text>
+
+  <text x="669" y="128" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Neo4j graph</text>
+  <text x="669" y="146" font-size="10.5" fill="#475569" text-anchor="middle">filtered · APOC</text>
+  <text x="669" y="161" font-size="10.5" fill="#475569" text-anchor="middle">2-hop metapath store</text>
+
+  <text x="895" y="126" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Frozen holdouts</text>
+  <text x="895" y="144" font-size="10.5" fill="#475569" text-anchor="middle">random · disease_cold · drug_cold</text>
+  <text x="895" y="159" font-size="10.5" fill="#475569" text-anchor="middle">seed 20260727 · repoDB pos/neg</text>
+
+  <text x="1120" y="128" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">RotatE (KGE)</text>
+  <text x="1120" y="146" font-size="10.5" fill="#475569" text-anchor="middle">per split · train-split</text>
+  <text x="1120" y="161" font-size="10.5" fill="#475569" text-anchor="middle">indications only</text>
+
+  <line x1="322" y1="141" x2="349" y2="141" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="548" y1="141" x2="575" y2="141" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="760" y1="141" x2="787" y2="141" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="1000" y1="141" x2="1027" y2="141" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arw)"/>
+
+  <!-- ============ LANE B : RETRIEVAL ============ -->
+  <rect x="24" y="218" width="1192" height="126" rx="10" fill="#ecfeff"/>
+  <text x="40" y="244" font-size="13" font-weight="800" fill="#0e7490">B</text>
+  <text x="40" y="262" font-size="11.5" font-weight="700" fill="#0e7490">Graph-RAG</text>
+  <text x="40" y="278" font-size="11.5" font-weight="700" fill="#0e7490">retrieval</text>
+
+  <g filter="url(#sh)">
+    <rect x="126" y="240" width="190" height="82" rx="8" fill="#fff" stroke="#0e7490" stroke-width="1.5"/>
+    <rect x="346" y="240" width="190" height="82" rx="8" fill="#fff" stroke="#0e7490" stroke-width="1.5"/>
+    <rect x="566" y="240" width="150" height="82" rx="8" fill="#fff" stroke="#0e7490" stroke-width="1.5"/>
+    <rect x="746" y="240" width="290" height="82" rx="8" fill="#fff" stroke="#0e7490" stroke-width="1.5"/>
+  </g>
+  <text x="221" y="268" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">SapBERT / FAISS linker</text>
+  <text x="221" y="286" font-size="10.5" fill="#475569" text-anchor="middle">disease text → graph node</text>
+  <text x="221" y="301" font-size="10.5" fill="#475569" text-anchor="middle">3-layer · abstains if low-conf</text>
+
+  <text x="441" y="268" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">2-hop retriever</text>
+  <text x="441" y="286" font-size="10.5" fill="#475569" text-anchor="middle">disease→gene→drug</text>
+  <text x="441" y="301" font-size="10.5" fill="#475569" text-anchor="middle">560 hubs blacklisted</text>
+
+  <text x="641" y="272" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Ranker (B4)</text>
+  <text x="641" y="290" font-size="10.5" fill="#475569" text-anchor="middle">uses score_pair</text>
+
+  <text x="891" y="266" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Retrieval Contract v1.0</text>
+  <text x="891" y="285" font-size="10.5" fill="#475569" text-anchor="middle">per candidate: path_id · triples</text>
+  <text x="891" y="300" font-size="10.5" fill="#475569" text-anchor="middle">nl_evidence · sources (deterministic)</text>
+
+  <line x1="316" y1="281" x2="343" y2="281" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="536" y1="281" x2="563" y2="281" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="716" y1="281" x2="743" y2="281" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+
+  <!-- graph -> retriever -->
+  <line x1="669" y1="182" x2="669" y2="205" stroke="#475569" stroke-width="1.5"/>
+  <path d="M669,205 L669,214 L441,214 L441,238" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <!-- KGE -> ranker (score_pair) -->
+  <path d="M1120,182 L1120,210 L641,210 L641,238" fill="none" stroke="#0e7490" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arw)"/>
+  <text x="880" y="205" font-size="10" font-style="italic" fill="#0e7490">score_pair tool</text>
+
+  <!-- ============ LANE C : AGENT (core) ============ -->
+  <rect x="24" y="358" width="1192" height="168" rx="10" fill="#fff7ed"/>
+  <text x="40" y="384" font-size="13" font-weight="800" fill="#c2410c">C</text>
+  <text x="40" y="402" font-size="11.5" font-weight="700" fill="#c2410c">Agent &amp;</text>
+  <text x="40" y="418" font-size="11.5" font-weight="700" fill="#c2410c">faithfulness</text>
+  <text x="40" y="440" font-size="9.5" font-style="italic" fill="#9a3412">core</text>
+  <text x="40" y="452" font-size="9.5" font-style="italic" fill="#9a3412">contribution</text>
+
+  <g filter="url(#sh)">
+    <rect x="126" y="386" width="252" height="118" rx="8" fill="#fff" stroke="#c2410c" stroke-width="1.5"/>
+    <rect x="806" y="386" width="230" height="118" rx="8" fill="#fff" stroke="#c2410c" stroke-width="1.5"/>
+  </g>
+  <!-- faithfulness highlight -->
+  <g filter="url(#sh)">
+    <rect x="404" y="380" width="376" height="130" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2.5"/>
+  </g>
+
+  <text x="252" y="414" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Grounded agent (LangGraph)</text>
+  <text x="252" y="434" font-size="10.5" fill="#475569" text-anchor="middle">link → retrieve → reason</text>
+  <text x="252" y="449" font-size="10.5" fill="#475569" text-anchor="middle">→ verify → assemble</text>
+  <text x="252" y="472" font-size="10.5" fill="#475569" text-anchor="middle">Qwen3.5-9B · FP16 · vLLM</text>
+  <text x="252" y="489" font-size="10" font-style="italic" fill="#9a3412" text-anchor="middle">greedy · seed 20260727 (deterministic)</text>
+
+  <text x="592" y="408" font-size="13" font-weight="800" fill="#9a3412" text-anchor="middle">Faithfulness mechanism</text>
+  <text x="592" y="430" font-size="11" fill="#7c2d12" text-anchor="middle">Citations enum-constrained by</text>
+  <text x="592" y="446" font-size="11" fill="#7c2d12" text-anchor="middle">guided JSON decoding:</text>
+  <text x="592" y="467" font-size="11.5" font-weight="700" fill="#7c2d12" text-anchor="middle">cited_path_ids ⊆ retrieved path_ids</text>
+  <text x="592" y="489" font-size="10.5" font-style="italic" fill="#9a3412" text-anchor="middle">fabrication impossible at decode time</text>
+
+  <text x="921" y="414" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Verifier</text>
+  <text x="921" y="433" font-size="10" font-style="italic" fill="#9a3412" text-anchor="middle">defence-in-depth</text>
+  <text x="921" y="454" font-size="10.5" fill="#475569" text-anchor="middle">re-derive path_id (shared)</text>
+  <text x="921" y="470" font-size="10.5" fill="#475569" text-anchor="middle">sampled Neo4j undirected</text>
+  <text x="921" y="485" font-size="10.5" fill="#475569" text-anchor="middle">edge re-check</text>
+
+  <!-- contract -> agent -->
+  <path d="M891,322 L891,344 L252,344 L252,384" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <text x="300" y="360" font-size="10" font-style="italic" fill="#475569">contract</text>
+  <line x1="378" y1="445" x2="401" y2="445" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="780" y1="445" x2="803" y2="445" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+
+  <!-- ============ LANE D : EVALUATION ============ -->
+  <rect x="24" y="540" width="1192" height="126" rx="10" fill="#f5f3ff"/>
+  <text x="40" y="566" font-size="13" font-weight="800" fill="#6d28d9">D</text>
+  <text x="40" y="584" font-size="11.5" font-weight="700" fill="#6d28d9">Evaluation</text>
+
+  <g filter="url(#sh)">
+    <rect x="126" y="562" width="322" height="82" rx="8" fill="#fff" stroke="#6d28d9" stroke-width="1.5"/>
+    <rect x="478" y="562" width="290" height="82" rx="8" fill="#fff" stroke="#6d28d9" stroke-width="1.5"/>
+    <rect x="798" y="562" width="238" height="82" rx="8" fill="#fff" stroke="#6d28d9" stroke-width="1.5"/>
+  </g>
+  <text x="287" y="588" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Shared harness — one metric engine</text>
+  <text x="287" y="607" font-size="10.5" fill="#475569" text-anchor="middle">pluggable rankers, identical holdout/strata:</text>
+  <text x="287" y="623" font-size="10.5" fill="#475569" text-anchor="middle">agent · ungrounded · graph-RAG · KGE · mock</text>
+
+  <text x="623" y="588" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Circularity-stratified matrix</text>
+  <text x="623" y="607" font-size="10.5" fill="#475569" text-anchor="middle">Stratum A/B · plus_true / whitelist</text>
+  <text x="623" y="623" font-size="10.5" fill="#475569" text-anchor="middle">bootstrap + paired 95% CIs</text>
+
+  <text x="917" y="586" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Findings</text>
+  <text x="917" y="605" font-size="10.5" fill="#475569" text-anchor="middle">0 fabricated citations · abstain 2–6%</text>
+  <text x="917" y="621" font-size="10.5" fill="#475569" text-anchor="middle">recovery ≈ chance (2-hop ceiling)</text>
+
+  <line x1="448" y1="603" x2="475" y2="603" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="768" y1="603" x2="795" y2="603" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <!-- agent + verifier -> harness -->
+  <path d="M252,504 L252,540" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <path d="M921,504 L921,520 L300,520 L300,540" fill="none" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- ============ LANE E : DEPLOYMENT ============ -->
+  <rect x="24" y="680" width="1192" height="120" rx="10" fill="#ecfdf5"/>
+  <text x="40" y="706" font-size="13" font-weight="800" fill="#047857">E</text>
+  <text x="40" y="724" font-size="11.5" font-weight="700" fill="#047857">Deployment</text>
+  <text x="40" y="740" font-size="11.5" font-weight="700" fill="#047857">&amp; demo</text>
+
+  <g filter="url(#sh)">
+    <rect x="126" y="702" width="322" height="78" rx="8" fill="#fff" stroke="#047857" stroke-width="1.5"/>
+    <rect x="478" y="702" width="558" height="78" rx="8" fill="#fff" stroke="#047857" stroke-width="1.5"/>
+  </g>
+  <text x="287" y="728" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Two-container stack</text>
+  <text x="287" y="747" font-size="10.5" fill="#475569" text-anchor="middle">Neo4j + vLLM (pinned digest)</text>
+  <text x="287" y="763" font-size="10.5" fill="#475569" text-anchor="middle">single GPU · self-hosted</text>
+
+  <text x="757" y="726" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Host application</text>
+  <text x="757" y="745" font-size="10.5" fill="#475569" text-anchor="middle">evidence-subgraph explorer  ·  grounded-vs-ungrounded contrast</text>
+  <text x="757" y="761" font-size="10.5" fill="#475569" text-anchor="middle">disambiguation panel · abstention as first-class outcome</text>
+
+  <path d="M287,644 L287,702" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="448" y1="741" x2="475" y2="741" stroke="#475569" stroke-width="1.5" marker-end="url(#arw)"/>
+
+  <!-- caption -->
+  <text x="34" y="828" font-size="11" fill="#64748b">The amber block is the architectural centre of gravity: because the model may cite only <tspan font-style="italic">path_id</tspan>s present in the retrieved contract, and those paths are deterministically</text>
+  <text x="34" y="845" font-size="11" fill="#64748b">serialized from real graph edges, a citation cannot reference anything absent from the graph. Recovery is reported honestly (near-zero at 2-hop); the contribution is faithfulness + calibrated abstention.</text>
+</svg>
